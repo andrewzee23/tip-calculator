@@ -6,3 +6,4 @@ persons = int(input('How many people are paying? '))
 total_bill = tip / 100 * bill + bill
 bill_per_persons = total_bill / persons
 final_amt = round(bill_per_persons, 2)
+print(f'Each person should pay: ${final_amt}')
